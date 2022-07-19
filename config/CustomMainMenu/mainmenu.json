@@ -1,0 +1,187 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -120,
+            "posY" : 129,
+            "width" : 640,
+            "height" : 640,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -315,
+            "posY" : 48,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+"custom1":
+        {
+            "text" : "Buscar actualicacion",
+            "posX" : 165,
+            "posY" : 215,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/irdomeriko/modpack-hijos-de-la-gran-puta-"
+            }
+        },
+
+     
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -315,
+            "posY" : 72,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -315,
+            "posY" : 96,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -315,
+            "posY" : 132,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -235,
+            "posY" : 132,
+            "width" : 70,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -315,
+            "posY" : 155,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -290,
+            "posY" : 155,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 140,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : false,
+            "gradient" : true
+        }
+    }
+}
